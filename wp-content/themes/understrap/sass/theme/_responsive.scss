@@ -1,0 +1,43 @@
+@media (max-width: 320px) {
+
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+  .header-btn{
+    width: 100%;
+    text-align: center;
+  }
+  .nav li{
+    padding: 15px;
+  }
+  #head-container{
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav{
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

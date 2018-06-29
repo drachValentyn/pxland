@@ -1,0 +1,66 @@
+body{
+  font-size: 16px;
+  font-family: $mainfont;
+  font-weight: 400;
+}
+
+//  Title for all sections
+
+.title-sect{
+  max-width: 470px;
+  color: $title-font-color;
+  h2{
+    padding-top: 90px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 54px;
+  }
+  p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 135px;
+    padding-top: 30px;
+  }
+}
+
+
+//    Section "Room for improvements"
+
+.room-img{
+  text-align: right;
+  padding-right: 125px;
+
+}
+
+.room-item{
+
+  &:before {
+    content: ' ';
+    width: 10%;
+    height: 4px;
+    background: $color_attr;
+    display: block;
+    position: absolute;
+  }
+  &:hover:before{
+    content: ' ';
+    width: 20%;
+    height: 15px;
+    background: $color_attr;
+    display: block;
+    position: absolute;
+    transition: 0.5s;
+  }
+  h3{
+    color: $title-font-color;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 36px;
+    padding: 20px 0 15px 0;
+    }
+  p{
+    color: #4a4a4a;
+    line-height: 26px;
+  }
+}
